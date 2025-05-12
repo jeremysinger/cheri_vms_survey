@@ -43,13 +43,19 @@ as described at https://cheriot.org/javascript/vm/2025/04/10/microvium-javascrip
 
 Contact: David Chisnall at SCI Semiconductor
 
-## JavaScript / v8
+## JavaScript,WebAssembly / V8
 
-There have been several attempts to get the v8 JavaScript engine
-running on CheriBSD/Morello and other purecap platforms. This work
-is ongoing. The most recent status update is this [set of slides](https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/cheritech24/04_03_Graeme_Jenkinson.pdf) from a CHERITech workshop.
+The V8 language runtime used by projects such as Chromium, NodeJS
+and Electron has an initial purecap port to CheriBSD/Morello available
+on [GitHub](https://github.com/ctsrd-cheri/v8). The port supports
+execution of much of JavaScript found on real-world websites. It also
+supports an initial port of both 32-bit and 64-bit WebAssembly (memory64).
+The latest status update on the work is a talk at [CHERI Blossoms](https://cheri-alliance.org/events/speakers/domagoj-stolfa/).
+The talk concludes with a demo of JavaScript inside the purecap port of
+Chromium. The V8 port is still under active development and currently has
+numerous limitations, such as not yet having support for pointer compression.
 
-Contact: Graeme Jenkinson at Capabilities Ltd
+Contact: Domagoj Stolfa at University of Cambridge (V8), Graeme Jenkinson at Capabilities Ltd (Chromium)
 
 ## Lua / ?
 
