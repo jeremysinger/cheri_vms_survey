@@ -10,7 +10,7 @@ update this survey document.
 
 The Boehm-Demers-Weiser conservative garbage collector (GC)
 has been ported to CheriBSD/Morello and CheriBSD/RISC-V.
-At the moment, the GC only works in single-threaded mode.
+At the moment, the GC only works in single-threaded, non-incremental mode.
 
 Some CHERI purecap support is upstreamed at https://github.com/ivmai/BDWGC
 with slightly more extensive support at https://github.com/capablevms/BDWGC
