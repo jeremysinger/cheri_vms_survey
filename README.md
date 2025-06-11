@@ -26,6 +26,8 @@ JIT compilation and GC enabled. This code is not yet available
 as open-source, since it is still an active research project
 at the University of Manchester.
 
+Contacts: Andy Nisbet, University of Manchester
+
 
 ## JavaScript / JSC
 
