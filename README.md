@@ -84,7 +84,7 @@ Contacts: Duncan Lowther and Jeremy Singer, University of Glasgow
 
 ## Ruby
 
-The CRuby interpreter has been ported to CHERI RISC-V, with full interpreter functionality and memory management support enabled except for JIT. The source code is not yet publicly released, as it remains part of an ongoing research project at the University of Tokyo. Research report [online](https://jssst.or.jp/files/user/taikai/2025/papers/4a-4-R.pdf)
+The CRuby interpreter has been ported to CHERI RISC-V, with full interpreter functionality and memory management support enabled except for JIT. The source code is availabe on [GitHub](https://github.com/plasgroup/cheri-ruby}. This work remains part of an ongoing research project at the University of Tokyo. Research report [online](https://jssst.or.jp/files/user/taikai/2025/papers/4a-4-R.pdf)
 
 Contacts: Hanhaotian Liu and Tomoharu Ugawa, University of Tokyo.
 
