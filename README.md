@@ -63,6 +63,11 @@ Contact: Domagoj Stolfa at University of Cambridge (V8), Graeme Jenkinson at Cap
 
 No CHERI ports of Lua, to the best of our knowledge.
 
+## PHP / Zend
+
+The Zend implementation of PHP has been ported to pure-capability Arm Morello and is available on [GitHub](https://github.com/tobil4sk/php-src/tree/feature/cheri-support). A backported version is also available as a [CheriBSD port](https://github.com/CTSRD-CHERI/cheribsd-ports/blob/main/lang/php83/files/cheribsd.patch).
+
+Contact: tobil4sk
 
 ## Python / CPython
 
